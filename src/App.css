@@ -225,8 +225,8 @@ body {
 }
 
 .intro__image {
-  width: 250px;
-  height: auto;
+  width: 225px;
+  height: 300px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
