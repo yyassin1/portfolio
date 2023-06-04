@@ -9,6 +9,10 @@ const GreetingMessage = () => {
     setCurrentLanguage((prevLanguage) => (prevLanguage + 1) % languageKeys.length);
   };
 
+  React.useEffect(() => {
+    nextLanguage();
+  }, []);
+
   return (
     <h1 className='greetings'>
       {languageKeys.map((languageKey, index) => (
@@ -17,7 +21,6 @@ const GreetingMessage = () => {
           <span className={`greeting ${currentLanguage === index ? 'active' : ''}`}>{greetings[languageKey]}</span>
         </React.Fragment>
       ))}
-      <button onClick={nextLanguage}>Next Language</button>
     </h1>
   );
 };
