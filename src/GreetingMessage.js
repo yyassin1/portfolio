@@ -17,6 +17,7 @@ const GreetingMessage = () => {
           <span className={`greeting ${currentLanguage === index ? 'active' : ''}`}>{greetings[languageKey]}</span>
         </React.Fragment>
       ))}
+      <button onClick={nextLanguage}>Next Language</button>
     </h1>
   );
 };
