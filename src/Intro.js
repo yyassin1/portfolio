@@ -15,7 +15,7 @@ export default function Intro() {
       <Header />
       <div className="intro__container">
         <img
-          src={`${process.env.PUBLIC_URL}/YassinProfile.JPG`}
+          src={`${process.env.PUBLIC_URL}/YassinProfile1.JPG`}
           alt="Yassin Profile"
           className="intro__image"
         />
