@@ -5,17 +5,17 @@ import Footer from "./Footer";
 
 export default function Intro() {
   const navigate = useNavigate();
-  
+
   const handleButtonClick = () => {
     navigate("/about");
   };
-  
+
   return (
     <>
       <Header />
       <div className="intro__container">
         <img
-          src={`${process.env.PUBLIC_URL}/background.jpg`}
+          src={`${process.env.PUBLIC_URL}/YassinProfile.JPG`}
           alt="Yassin Profile"
           className="intro__image"
         />
