@@ -124,12 +124,8 @@ body {
     flex-wrap: wrap;
   }
 
-  .header--name--button {
-    font-size: auto;
-  }
-
   .header--name--button + .button {
-    font-size: auto;
+    font-size: 6px;
   }
 }
 /*About me*/
