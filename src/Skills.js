@@ -6,12 +6,14 @@ import {
   FaJs,
   FaReact,
   FaPython,
+  FaNpm,
 } from "react-icons/fa";
 import {
   SiWebpack,
   SiTailwindcss,
   SiGit,
   SiNetlify,
+  SiBootstrap,
   SiC,
 } from "react-icons/si";
 import Footer from "./Footer";
@@ -56,12 +58,20 @@ export default function Skills() {
             <span>Netlify</span>
           </div>
           <div className="skill">
+            <SiBootstrap className="skill-icon" />
+            <span>Bootstrap</span>
+          </div>
+          <div className="skill">
             <SiC className="skill-icon" />
             <span>C</span>
           </div>
           <div className="skill">
             <FaPython className="skill-icon" />
             <span>Python</span>
+          </div>
+          <div className="skill">
+            <FaNpm className="skill-icon" />
+            <span>NPM</span>
           </div>
         </div>
       </div>
