@@ -122,6 +122,7 @@ body {
 @media (max-width: 768px) {
   .header {
     flex-wrap: wrap;
+    padding: 10px;
   }
 
   .header--name--button {
