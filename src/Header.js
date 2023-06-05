@@ -8,7 +8,7 @@ export default function Header() {
           Yassin
         </Link>
       </div>
-      <nav className="button--nav">
+      <nav>
         <Link to="/about" className="button">
           About
         </Link>
