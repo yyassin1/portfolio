@@ -124,7 +124,10 @@ body {
     flex-wrap: wrap;
   }
 
-  .header--name--button + .button {
+  .header--name--button {
+    font-size: 6px;
+  }
+  .button {
     font-size: 6px;
   }
 }
