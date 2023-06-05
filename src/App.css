@@ -105,8 +105,11 @@ body {
   font-family: monospace;
   text-decoration: none;
 }
+.header--name{
+  transition: transform 0.5s;
+}
 .header--name:hover {
-  transform: matrix(0, 1, 1, 0, 0, 0);
+  transform: rotateY(180deg);
   color: white;
 }
 .header {
