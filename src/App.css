@@ -127,9 +127,11 @@ body {
 
   .header--name--button {
     font-size: 18px;
+    padding: 1px;
   }
   .button {
     font-size: 15px;
+    padding: 1px;
   }
 }
 /*About me*/
