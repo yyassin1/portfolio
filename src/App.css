@@ -128,8 +128,9 @@ body {
     align-items: center;
   }
   .header--name--button {
-    font-size: 25px;
+    font-size: 26px;
     padding: 3px;
+    color: black;
   }
   .button {
     font-size: 21px;
