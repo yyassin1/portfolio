@@ -13,7 +13,7 @@ export default function Greeting() {
   return (
     <>
       <Header />
-      <div className="greeting-container">
+      <div className="intro__container">
         <img
           src={`${process.env.PUBLIC_URL}/YassinProfile.JPG`}
           alt="Yassin Profile"
