@@ -106,7 +106,7 @@ body {
   text-decoration: none;
 }
 .header--name:hover {
-  transform: scale(1.2);
+  transform: matrix(0, 1, 1, 0, 0, 0);
   color: white;
 }
 .header {
@@ -116,6 +116,13 @@ body {
   box-shadow: 0 0 3px white;
   padding: 12px;
   opacity: 90%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 20px;
+  }
 }
 /*About me*/
 .aboutme {
