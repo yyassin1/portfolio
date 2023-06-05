@@ -122,16 +122,19 @@ body {
 @media (max-width: 768px) {
   .header {
     flex-wrap: wrap;
-    padding: 3px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .header--name--button {
     font-size: 20px;
-    padding: 3px;
+    padding: 2px;
   }
   .button {
     font-size: 18px;
-    padding: 3px;
+    padding: 2px;
   }
 }
 /*About me*/
