@@ -105,11 +105,8 @@ body {
   font-family: monospace;
   text-decoration: none;
 }
-.header--name{
-  transition: transform 0.5s;
-}
 .header--name:hover {
-  transform: rotateY(180deg);
+  transform: scale(1.2);
   color: white;
 }
 .header {
@@ -125,6 +122,10 @@ body {
   .header {
     width: 100%;
     padding: 20px;
+  }
+
+  .header--name--button {
+    font-size: 24px;
   }
 }
 /*About me*/
