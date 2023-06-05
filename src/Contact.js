@@ -1,7 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { FaGithub, FaLinkedin, FaGlobe, FaPhone, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaGlobe,
+  FaPhone,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -10,7 +16,8 @@ export default function Contact() {
       <section className="contact">
         <h2 className="contact__title">Contact Me</h2>
         <p className="contact__description">
-          Have a project in mind or just want to say hello? Feel free to reach out!
+          Have a project in mind or just want to say hello? Feel free to reach
+          out!
         </p>
         <div className="contact__icons">
           <a href="https://github.com/yyassin1">
