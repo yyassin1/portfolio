@@ -127,10 +127,10 @@ body {
 
   .header--name--button {
     font-size: 23px;
-    margin-left: 1px;
+    margin-left: 0;
   }
 
-  .button {
+  .header--name--button + .button {
     font-size: 18px;
   }
 }
