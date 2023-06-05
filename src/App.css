@@ -121,13 +121,11 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    width: 100%;
-    padding: 10px;
+    flex-wrap: wrap;
   }
 
   .header--name--button {
     font-size: 23px;
-    margin-left: 0;
   }
 
   .header--name--button + .button {

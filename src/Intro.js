@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-export default function Greeting() {
+export default function Intro() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
