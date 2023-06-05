@@ -24,7 +24,7 @@ body {
   justify-content: center;
 }
 @media (max-width: 768px) {
-  .greetings-container {
+  .greeting-container {
     padding: 15px;
     font-size: 20px;
   }

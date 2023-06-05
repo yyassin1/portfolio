@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-export default function Intro() {
+export default function Greeting() {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
@@ -13,7 +13,7 @@ export default function Intro() {
   return (
     <>
       <Header />
-      <div className="intro__container">
+      <div className="greeting-container">
         <img
           src={`${process.env.PUBLIC_URL}/YassinProfile.JPG`}
           alt="Yassin Profile"
