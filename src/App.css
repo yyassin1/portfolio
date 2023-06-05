@@ -125,7 +125,7 @@ body {
   }
 
   .header--name--button {
-    font-size: 23px;
+    font-size: auto;
   }
 
   .header--name--button + .button {
