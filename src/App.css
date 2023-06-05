@@ -7,14 +7,30 @@ body {
   background-image: url(/public/pe.jpg);
   background-size: cover;
 }
-.greetings {
+
+.greeting-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+.greetings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .greetings-container {
+    padding: 15px;
+  }
+
+  .greetings {
+    width: 100%;
+  }
 }
 .greeting-space {
   margin-right: 20px;
@@ -22,7 +38,8 @@ body {
 
 .greetings .greeting {
   opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+  animation: fadeIn 2s ease-in-out forwards;
+  margin-right: 20px;
 }
 
 @keyframes fadeIn {
@@ -384,5 +401,3 @@ body {
 .resume--link:hover {
   background-color: #45a049;
 }
-
-
