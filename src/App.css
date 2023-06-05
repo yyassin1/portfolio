@@ -129,7 +129,7 @@ body {
   }
 
   .header--name--button + .button {
-    font-size: 18px;
+    font-size: auto;
   }
 }
 /*About me*/
