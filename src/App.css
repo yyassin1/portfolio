@@ -144,6 +144,9 @@ nav {
     font-size: 21px;
     padding: 3px;
   }
+  .project-details {
+    padding: 5px;
+  }
 }
 /*About me*/
 .aboutme {
