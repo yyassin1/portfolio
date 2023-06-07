@@ -7,7 +7,11 @@ body {
   background-image: url(/public/pe.jpg);
   background-size: cover;
 }
-
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .greeting-container {
   display: flex;
   justify-content: center;
