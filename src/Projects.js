@@ -39,6 +39,33 @@ const projects = [
     detail:
       "A full website built with React, featuring a shopping list and a shopping cart functionality for a seamless online shopping experience.",
   },
+  {
+  name: "Etch-A-Sketch",
+    image: `${process.env.PUBLIC_URL}/etch.png`,
+    tech: "HTML, CSS, JavaScript",
+    live: "https://yassin-etch-a-sketch.netlify.app/",
+    source: "https://github.com/yyassin1/etch-a-sketch",
+    detail:
+      "This is a JavaScript program that dynamically creates a grid of cells using the DOM manipulation. Each cell in the grid can be colored by hovering over it, and the grid can be cleared by clicking a button.",
+  },
+  {
+    name: "Tic-Tac-Toe",
+      image: `${process.env.PUBLIC_URL}/tictactoe.png`,
+      tech: "HTML, CSS, JavaScript",
+      live: "https://yassin-tictactoe.netlify.app",
+      source: "https://github.com/yyassin1/tic-tac-toe",
+      detail:
+        "This is a simple web-based Tic-Tac-Toe game where players can compete against each other or against a computer opponent.",
+    },
+    {
+      name: "Rock-Paper-Scissor",
+        image: `${process.env.PUBLIC_URL}/tictactoe.png`,
+        tech: "HTML, CSS, JavaScript",
+        live: "https://yassin-rockpaperscissor.netlify.app",
+        source: "https://github.com/yyassin1/Rock-Paper-Scissors",
+        detail:
+          "Rock Paper Scissors is a simple web-based game where players can compete against the computer by choosing rock, paper, or scissors. The game follows the traditional rules: rock beats scissors, scissors beats paper, and paper beats rock.",
+      },
 ];
 
 const Projects = () => {
