@@ -16,7 +16,7 @@ const projects = [
     name: "CV Builder",
     image: `${process.env.PUBLIC_URL}/cv.png`,
     tech: "React Js, HTML, CSS",
-    live: "https://exquisite-duckanoo-c1b515.netlify.app",
+    live: "https://yassin-cv-builder.netlify.app/",
     source: "https://github.com/yyassin1/CV-builder",
     detail:
       "The CV Builder is a web application that helps users create professional resumes quickly. It offers an intuitive interface for inputting personal and professional information and selecting customizable resume templates. Users can generate visually appealing resumes to highlight their skills and qualifications for potential employers.",
@@ -34,7 +34,7 @@ const projects = [
     name: "Tobacco Store Page",
     image: `${process.env.PUBLIC_URL}/flavor.png`,
     tech: "React Js, HTML, CSS, Netlify",
-    live: "https://remarkable-longma-fff1a4.netlify.app/",
+    live: "https://flavor-us-market.netlify.app",
     source: "https://github.com/yyassin1/Flavor-Us-Market",
     detail:
       "A full website built with React, featuring a shopping list and a shopping cart functionality for a seamless online shopping experience.",
