@@ -25,7 +25,7 @@ const projects = [
     name: "Weather App",
     image: `${process.env.PUBLIC_URL}/weather.png`,
     tech: "HTML, CSS, Vanilla Javascript",
-    live: "https://lucent-froyo-686d52.netlify.app/",
+    live: "https://yassin-weather.netlify.app",
     source: "https://github.com/yyassin1/Weather-App",
     detail:
       "The Weather App, created using HTML, CSS, and JavaScript, delivers real-time weather information. It showcases current weather conditions, temperature conversion between Fahrenheit and Celsius, wind speed, sunrise and sunset times, and a day-to-night mode for visual appeal. It offers an intuitive user interface for a seamless weather-checking experience.",

@@ -26,7 +26,7 @@ export default function Contact() {
           <a href="https://www.linkedin.com/in/yassin-yassin-133181193/">
             <FaLinkedin className="contact__icon" />
           </a>
-          <a href="https://your-website.com">
+          <a href="https://yassinyh.com">
             <FaGlobe className="contact__icon" />
           </a>
           <a href="tel:+3017285514">
