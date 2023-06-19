@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://yassinyh.com/",
   "scripts": {
+    "start": "node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
