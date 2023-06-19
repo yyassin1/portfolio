@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import YassinResume from "./files/Yassin_Yassin Resume.pdf";
+import YassinResume from "./files/Yassin_Resume.docx";
 export default function Resume() {
   return (
     <div className="container">
